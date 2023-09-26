@@ -115,7 +115,7 @@ def chat_with_files():
 
     # Define constants and settings
     CACHE_DIR = "./uploads"
-    aai.settings.api_key = st.secrets['29e1b02e9d6d413da5c1e5cc5d5de844']
+    aai.settings.api_key = st.secrets[29e1b02e9d6d413da5c1e5cc5d5de844]
 
     # Render chat messages
     def render_message(message):
